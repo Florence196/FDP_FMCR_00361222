@@ -43,11 +43,6 @@ int main(int argc, char *argv[]) //función principal
             además se indica que se sobreescribirá el documento al poner la "w"*/
             num_positivo = fopen("numeros_positivos.txt", "w"); 
 
-            if (num_positivo == NULL) //en caso de no estar creado el fichero
-            {
-                printf("Error"); //mensaje de error 
-            }
-
             fprintf(num_positivo, "%i", num); //imprime num en el fichero "numeros_positivos"
 
             fclose(num_positivo); //cierra el fichero
@@ -62,11 +57,6 @@ int main(int argc, char *argv[]) //función principal
             además se indica que se debe escribir al final del documento al poner la "a"*/
             num_positivo = fopen("numeros_positivos.txt", "a"); 
 
-            if (num_positivo == NULL) //en caso de no estar creado el documendo
-            {
-                printf("Error");
-            }
-
             fprintf(num_positivo, "\n%i", num); //imprime num en el fichero
 
             fclose(num_positivo); //cierra el fichero
@@ -78,11 +68,6 @@ int main(int argc, char *argv[]) //función principal
             /*se asigna el fichero "numeros_negativos a la variable file num_negativo"
             además se indica que se debe sobreescribir el documento al poner la "w"*/
             num_negativo = fopen("numeros_negativos.txt", "w"); 
-
-            if (num_negativo == NULL) //en caso de no estar creado el fichero
-            {
-                printf("Error"); //mensaje de error
-            }
 
             fprintf(num_negativo, "%i", num); //imprime num en el fichero "numeros_negativos"
 
@@ -97,11 +82,6 @@ int main(int argc, char *argv[]) //función principal
             /*se asigna el fichero "numeros_negativos a la variable file num_negativo"
             además se indica que se debe escribir al final del documento al poner la "w"*/
             num_negativo = fopen("numeros_negativos.txt", "a");
-
-            if (num_negativo == NULL) //en caso de que el fichero no exista
-            {
-                printf("Error"); //mensaje de error
-            }
 
             fprintf(num_negativo, "\n%i", num); //imprime num en el fichero
 

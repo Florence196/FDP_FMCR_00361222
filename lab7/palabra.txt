@@ -1,0 +1,8 @@
+La palabra hola tiene:
+	1 a en la palabra
+	0 e en la palabra
+	0 i en la palabra
+	1 o en la palabra
+	0 u en la palabra
+
+
