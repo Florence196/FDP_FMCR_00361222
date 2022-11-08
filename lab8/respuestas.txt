@@ -1,0 +1,19 @@
+1. ¿Qué es ser autodidacta?
+    Ser autodidacta es investigar y/o estudiar por su cuenta.
+
+2. Investigar qué son matrices (definición, sintaxis, etc).
+    Al referirse a una matriz en informática, se está hablando de un arreglo doble, el cual solo puede guardar un tipo de variable. 
+
+    Ejemplo:
+    
+        int matriz[2][3] = 
+        {
+            {2, 3, 4},
+            {5, 6, 10},
+        };
+
+
+3. Listar 3 fuentes de donde aprender (canales de YouTube, foros, páginas, etc).
+    -   https://www.programarya.com/Cursos/C++
+    -   https://www.tutorialspoint.com/cprogramming/c_decision_making.htm
+    -   https://www.aprenderaprogramar.com/index.php?option=com_content&view=category&id=82&Itemid=210
